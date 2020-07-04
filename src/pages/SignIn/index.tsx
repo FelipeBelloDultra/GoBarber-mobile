@@ -105,7 +105,7 @@ const SignIn: React.FC = () => {
                 autoCorrect={false}
                 autoCapitalize="none"
                 keyboardType="email-address"
-                name="Email"
+                name="email"
                 icon="mail"
                 placeholder="E-mail"
                 returnKeyType="next"
@@ -115,7 +115,7 @@ const SignIn: React.FC = () => {
               <Input
                 ref={passwordInputRef}
                 secureTextEntry
-                name="Password"
+                name="password"
                 icon="lock"
                 placeholder="Senha"
                 returnKeyType="send"
