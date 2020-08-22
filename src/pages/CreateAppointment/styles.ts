@@ -109,6 +109,21 @@ export const Schedule = styled.View`
   padding: 24px 0 16px;
 `;
 
+export const CreateAppointmentButton = styled(RectButton)`
+  height: 50px;
+  background: #ff9000;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 24px 24px;
+`;
+
+export const CreateAppointmentText = styled.Text`
+  font-family: 'RobotoSlab-Medium';
+  font-size: 18px;
+  color: #232129;
+`;
+
 export const Section = styled.View`
   margin-bottom: 24px;
 `;
