@@ -29,7 +29,7 @@ export interface Provider {
   avatar_url: string;
 }
 
-const Dashborad: React.FC = () => {
+const Dashboard: React.FC = () => {
   const [providers, setProviders] = useState<Provider[]>([]);
 
   const { signOut, user } = useAuth();
@@ -98,4 +98,4 @@ const Dashborad: React.FC = () => {
   );
 };
 
-export default Dashborad;
+export default Dashboard;
